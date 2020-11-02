@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+.list-inline a:hover{
+  background-color: #F73859;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -52,13 +56,13 @@ textarea.form-control {
 }
 
 .btn.btn-primary {
-  color: #fff;
+  color: rgb(247,56,89);
   border-width: 2px;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   border-color: #f96982;
-  background: #f96982;
+  background: #fff;
 }
 
 .btn.btn-sm {
