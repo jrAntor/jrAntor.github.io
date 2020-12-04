@@ -1,15 +1,22 @@
 body{
 	font: Helvetica;
 	margin: 0;
+	background-color: Lavender;
 }
 
 nav{
-	height: 20px;
+	height: 12px;
 	background-color: inherit;
 }
 
 img{
 	pointer-events: none;
+}
+
+hr{
+     height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgb(238,110,115,0.5);
 }
 
 .circle{
@@ -71,18 +78,18 @@ img{
 }
 
 #skills{
-	margin: 50px 0px 50px 0px;
+	margin: 150px 0px 180px 0px;
 }
 
 #bio{
-	margin: 0px 0px 50px 0px;
+	margin: 100px 0px 180px 0px;
 }
 
 #education{
-	margin: 50px 0px 50px 0px;
+	margin: 180px 0px 180px 0px;
 }
 
 #projects{
-	margin: 50px 0px 50px 0px;
+	margin: 150px 0px 75px 0px;
 }
 
