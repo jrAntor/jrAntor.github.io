@@ -1,0 +1,17 @@
+
+title: "Janta Roy Antor"
+name: "Janta Roy Antor"
+description: >-
+  Problem Solving enthusiast, trying not to procrastinate.
+
+author:
+  name: "Janta Roy Antor"
+  url: jrantor.github.io
+  github: "https://github.com/jrantor"
+  linkedin: "https://linkedin.com/in/jrantor"
+
+
+baseurl: ""
+url: "jrantor.github.io"
+
+paginate: 3

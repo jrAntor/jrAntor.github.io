@@ -1,11 +1,10 @@
 body{
-	font: Helvetica;
 	margin: 0;
 	background-color: Lavender;
 }
 
 nav{
-	height: 12px;
+	height: 1px;
 	background-color: inherit;
 }
 
@@ -22,6 +21,7 @@ hr{
 .circle{
 	border-radius: 10%;
 }
+
 
 .sidenav-trigger{
 	color: #ee6e73;
@@ -47,8 +47,10 @@ hr{
 	font-weight: bold;
 }
 
+
+
 .leadh{
-	font-size: 1.2em;
+	font-size: 1.6em;
 	font-weight: 400;
 	color: #4a4a4a;
 }
@@ -81,15 +83,14 @@ hr{
 	margin: 150px 0px 180px 0px;
 }
 
-#bio{
+#about{
 	margin: 100px 0px 180px 0px;
 }
 
-#education{
-	margin: 180px 0px 180px 0px;
+#posts{
+	margin: 150px 0px 180px 0px;
 }
 
 #projects{
 	margin: 150px 0px 75px 0px;
 }
-

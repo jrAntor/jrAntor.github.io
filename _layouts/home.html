@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+	{% include header.html %}
+	{% include sidenav.html %}
+<main>
+  <nav>
+  </nav>
+<div class="container">
+  {{ content }}
+</div>
+
+<footer>
+ <div class="container" style="text-align: center;">
+	<p>
+		&copy <a href="{{ site.baseurl }}" class="tcolor">jrantor</a> <script type="text/javascript"> document.write(new Date().getFullYear()); </script> 
+	</p>
+</div>
+</footer>
+
+</main>
+
+
+  <script type="text/javascript" src="{{ site.baseurl }}/public/js/jquery-3.2.1.min.js"></script>     
+ <script type="text/javascript" src="{{ site.baseurl }}/public/js/materialize.js"></script>
+ <script type="text/javascript" src="{{ site.baseurl }}/public/js/app.js"></script>
+
+    	
+</body>
+</html>
