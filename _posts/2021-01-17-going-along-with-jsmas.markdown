@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Going Along with #JavaScriptmas!"
-date:   2021-01-17 00:14:19 +0600
+date:   2021-01-17 04:14:19 +0600
 permalink: /blog/going-along-with-js
 ---
 

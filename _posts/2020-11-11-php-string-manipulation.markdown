@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Basic Php String Functions"
+title:  "Useful String Manipulation in PHP"
 date:   2020-11-11 00:14:19 +0600
-permalink: /blog/php-string-functions
+permalink: /blog/php-strings
 ---
 
-This post contains useful string functions of PHP, kind of a cheat sheet.
+This post contains useful string functions of PHP, kind of a cheat sheet. Other than searching, it is useful to get a few of them in one place.
 
 
-- **Getting length of a string**
+
+> Getting length of a string
 
  ```php
 
@@ -17,7 +18,7 @@ This post contains useful string functions of PHP, kind of a cheat sheet.
 
  ```
 
-- **Counting number of words**
+> Counting number of words
 
 ```php
 
@@ -26,7 +27,7 @@ This post contains useful string functions of PHP, kind of a cheat sheet.
 
 ```
 
-- **Reverse a string**
+> Reverse a string
 
 ```php
    $str = "change me";
@@ -34,7 +35,7 @@ This post contains useful string functions of PHP, kind of a cheat sheet.
 
 ```
 
-- **Concatenation of strings**
+> Concatenation of strings**
 
 ```php
 
@@ -45,16 +46,17 @@ This post contains useful string functions of PHP, kind of a cheat sheet.
 
 ```
 
-- **Hash of a string**
+> Hash of a string
 
 ```php
 
   $str = "change me";
-  echo md5($str); // c9be20c442bb0680b7c941961f5c3db
+  echo md5($str); 
+  // c9be20c442bb0680b7c941961f5c3db
 
 ```
 
-- **Lowercase/Uppercase the string**
+> Lowercase/Uppercase the string
 
 ```php
 
@@ -65,7 +67,7 @@ This post contains useful string functions of PHP, kind of a cheat sheet.
 
 ```
 
-- **Search for text position in a string**
+> Search for text position in a string
 
 ```php
 
@@ -74,26 +76,26 @@ This post contains useful string functions of PHP, kind of a cheat sheet.
 
 ```
 
-- **String Compare**
+> String Compare
 
 ```php
 
   $str1 = "hello";
   $str2 = "Hello world";
 
-  echo strcmp($str1,$str2); // 1, because $str1 > $str2
+  echo strcmp($str1,$str2);
+  // 1, because $str1 > $str2
 
 ```
 
-- **Getting part of a string**
+> Getting part of a string
 
 ```php
 
   $str = "Hello world";
-
-  echo substr($str,0,6); //Hello ; substr(string, start, end*) *end is optional
+  //substr(string, start, end)
+  echo substr($str,0,6); //Hello 
 
 ```
 
  See More: [String Functions](https://www.php.net/manual/en/ref.strings.php)
-
